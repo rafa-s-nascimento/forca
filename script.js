@@ -1,13 +1,13 @@
 const bancoDePalavras = [
-  "casa",
-  "carro",
-  "desafio",
-  "honra",
-  "espelho",
-  "pijama",
-  "covil",
-  "elefante",
-  "guitarra",
+  // "casa",
+  // "carro",
+  // "desafio",
+  // "honra",
+  // "espelho",
+  // "pijama",
+  // "covil",
+  // "elefante",
+  // "guitarra",
 ];
 
 const letrasPrecionadas = [];
@@ -66,6 +66,7 @@ function alternarInterfaces(e) {
     at(4);
   }
 }
+
 function resetarJogo() {
   console.log("botão ativado");
   let qtdFilhos = valido.childElementCount;
@@ -98,6 +99,7 @@ function sorteiaNumeroAleatorio() {
 
   return gerarPalavra(numerAleatorio);
 }
+
 function gerarPalavra(num) {
   palavraSorteada = bancoDePalavras[num];
 
@@ -105,6 +107,7 @@ function gerarPalavra(num) {
     valido.append(criarSpan());
   }
 }
+
 function criarSpan() {
   let span = document.createElement("span");
 
