@@ -1,5 +1,5 @@
 const bancoDePalavras = [
-  // "casa",
+  "casa",
   // "carro",
   // "desafio",
   // "honra",
